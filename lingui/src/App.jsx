@@ -1,8 +1,10 @@
 import React from "react";
 
+import { Trans } from '@lingui/macro'
+
 const App = () => (
     <div>
-        <h1>React from Scratch</h1> 
+        <h1><Trans>Hello World</Trans></h1> 
     </div>
 );
 
