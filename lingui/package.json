@@ -8,8 +8,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack serve --mode development --open",
-    "i18n:extract": "lingui extract --clean",
-    "i18n:compile": "lingui compile"
+    "i18n:extract": "lingui extract --clean & lingui compile"
   },
   "dependencies": {
     "@lingui/react": "^3.13.2",
