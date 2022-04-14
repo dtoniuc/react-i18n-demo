@@ -9,6 +9,9 @@ const App = () => (
     <h1>
       <Trans>Hello World</Trans>
     </h1>
+    <span>
+      <Trans>How are you?</Trans>
+    </span>
     <ul>
       {Object.entries(locales).map(([localeKey, localeName]) => {
         return (
