@@ -11,12 +11,8 @@ const App = () => {
       <h1>{t('Hello World')}</h1>
       <ul>
         {Object.entries(locales).map(([localeKey, localeName]) => (
-          <li>
-            <a
-              key={localeKey}
-              href='#'
-              onClick={() => i18n.changeLanguage(localeKey)}
-            >
+          <li key={localeKey}>
+            <a href='#' onClick={() => i18n.changeLanguage(localeKey)}>
               {localeName}
             </a>
           </li>

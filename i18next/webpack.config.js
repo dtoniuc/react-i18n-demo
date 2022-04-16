@@ -34,6 +34,8 @@ module.exports = {
     extensions: ['.js', '.jsx'],
   },
   devServer: {
-    static: './dist',
+    static: {
+      directory: path.join(__dirname, 'public'),
+    },
   },
 };
