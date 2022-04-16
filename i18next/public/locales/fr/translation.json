@@ -1,0 +1,9 @@
+{
+  "Hello World": "Bonjour le monde",
+  "How are you?": "Comment ca va?",
+  "key": {
+    "translation": {
+      "placeholder": "..."
+    }
+  }
+}
