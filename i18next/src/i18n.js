@@ -10,6 +10,11 @@ i18n
           'Hello World': 'Hello World!',
         },
       },
+      fr: {
+        translation: {
+          'Hello World': 'Bonjour le monde',
+        },
+      },
     },
     lng: 'en',
     fallbackLng: 'en',
@@ -18,4 +23,11 @@ i18n
     },
   });
 
+const locales = {
+  en: 'English',
+  fr: 'Française',
+};
+
 export default i18n;
+
+export { locales };
