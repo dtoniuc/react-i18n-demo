@@ -9,6 +9,8 @@ const App = () => {
   return (
     <div>
       <h1>{t('Hello World')}</h1>
+      <span>{t('How are you?')}</span>
+      <span>{t('key.translation.placeholder')}</span>
       <ul>
         {Object.entries(locales).map(([localeKey, localeName]) => (
           <li key={localeKey}>

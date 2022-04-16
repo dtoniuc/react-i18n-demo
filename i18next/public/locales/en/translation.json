@@ -1,4 +1,9 @@
-
 {
-    "Hello World": "Hello World!"
+  "Hello World": "Hello World",
+  "How are you?": "How are you?",
+  "key": {
+    "translation": {
+      "placeholder": "..."
+    }
+  }
 }

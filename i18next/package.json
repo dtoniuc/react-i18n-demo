@@ -5,9 +5,11 @@
   "main": "index.js",
   "license": "MIT",
   "private": false,
+  "type": "module",
   "scripts": {
     "start": "webpack serve --open --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "i18n:extract": "i18next"
   },
   "dependencies": {
     "i18next": "^21.6.16",
@@ -22,6 +24,7 @@
     "@babel/preset-react": "^7.16.7",
     "babel-loader": "^8.2.4",
     "html-webpack-plugin": "^5.5.0",
+    "i18next-parser": "^6.3.0",
     "webpack": "^5.72.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.8.1"
